@@ -1,5 +1,7 @@
 ---
 author: Sat Naing
+pubDatetime: 2025-02-09
+modDatetime: 2025-02-11
 title: Tailwind Typography Plugin
 featured: false
 draft: false
