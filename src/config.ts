@@ -1,13 +1,13 @@
 import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
-  website: "https://astro-paper.pages.dev/", // replace this with your deployed domain
-  author: "Sat Naing",
-  desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
-  title: "AstroPaper",
+  website: "https://www.budparr.me/", // replace this with your deployed domain
+  author: "Bud Parr",
+  desc: "A personal journal of photography and literature",
+  title: "@BudParr.me",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
-  postPerPage: 3,
+  postPerPage: 30,
   scheduledPostMargin: 15 * 60 * 1000, // 15 minutes
 };
 
@@ -28,17 +28,17 @@ export const SOCIALS: SocialObjects = [
     name: "Github",
     href: "https://github.com/satnaing/astro-paper",
     linkTitle: ` ${SITE.title} on Github`,
-    active: true,
+    active: false,
   },
   {
-    name: "Facebook",
-    href: "https://github.com/satnaing/astro-paper",
-    linkTitle: `${SITE.title} on Facebook`,
+    name: "Bluesky",
+    href: "https://bsky.app/profile/budparr.me",
+    linkTitle: `${SITE.title} on Bluesky`,
     active: true,
   },
   {
     name: "Instagram",
-    href: "https://github.com/satnaing/astro-paper",
+    href: "https://www.instagram.com/budparr/",
     linkTitle: `${SITE.title} on Instagram`,
     active: true,
   },
@@ -46,7 +46,7 @@ export const SOCIALS: SocialObjects = [
     name: "LinkedIn",
     href: "https://github.com/satnaing/astro-paper",
     linkTitle: `${SITE.title} on LinkedIn`,
-    active: true,
+    active: false,
   },
   {
     name: "Mail",
