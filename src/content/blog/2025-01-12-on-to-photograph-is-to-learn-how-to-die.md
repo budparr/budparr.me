@@ -1,4 +1,6 @@
 ---
+author: bud
+pubDatetime: 2024-12-20
 title: "An Instant Classic: To Photograph is to Learn How to Die"
 slug: on-to-photograph-is-to-learn-how-to-die
 featured: false
